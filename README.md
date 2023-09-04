@@ -1,2 +1,3 @@
 # Guessing_game
-Guess th number 
+Guess the number 
+
