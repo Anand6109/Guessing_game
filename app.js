@@ -12,7 +12,7 @@ let attempts = 0;
 
 while (parseInt(guess) !== targetNum) {
     if (guess == 'q') break;
-    attempts++;
+    attempts = attempts + 1;
     if (guess > targetNum) {
         guess = prompt("too high ! enter low digit");
     } else {
